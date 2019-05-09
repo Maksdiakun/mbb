@@ -1,0 +1,278 @@
+
+.manufac{
+	justify-content: flex-start;
+}
+ h2{
+	font-size: 3.3333rem;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #6F6F6F;
+	margin-bottom: 40px;
+	font-weight: normal;
+
+}
+ .manufac p{
+	line-height: 24px;
+}
+.man-cont{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+ .pic-block{
+	background-color: #fff;
+	padding-top: 20px;
+	padding-bottom: 120px;
+}
+.manufac .big-block{
+	margin-top: 30px;
+}
+.manufac .big-block p{
+	margin-top: 60px;
+}
+.img-block .col-xl-6{
+	margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+
+ .manufac .img-block{
+ 	text-align: center;
+ }
+	
+ h2{
+	font-size: 1.9rem;
+}
+
+}
+/*----------------------------------contacts page---------------*/
+
+.contacts{
+	justify-content: flex-start;
+}
+.contacts .cont-container{
+	padding-top: 40px;
+	padding-bottom: 67px;
+}
+.contact{
+	text-align: center;
+	background-color: #fff;
+	height: 259px;
+	padding-top: 35px;
+	margin-top: 40px;
+}
+.contact p{
+	font-size: 1.1111rem;
+	margin-bottom: 12px;
+}
+.contact:first-child{
+	padding: 0 90px;
+	padding-top: 35px;
+}
+.contact:first-child p{
+	font-size: 1rem;
+}
+
+
+.contact h6 {
+	font-size: 1.2222rem;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	font-weight: normal;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	text-transform: none;
+}
+.contacts h2{
+	margin-bottom: 0;
+}
+
+#map {
+	height: 410px;
+	width: 100%;
+}
+
+/*-----------------------products--------------------*/
+.products{
+	justify-content: flex-start;
+}
+.products .pick-block{
+	padding-top: 16px;
+	padding-bottom: 55px;
+}
+.small-text{
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #6F6F6F;
+}
+.products .sm-btn{
+
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	width: 98px;
+	height: 58px;
+	background-color: #C4C4C4;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.img-prod{
+	width: 100%;
+}
+.prod{
+	margin-top: 30px;
+}
+.sm-btn:hover{
+	background-color: #58A494;
+}
+.name-prod{
+	font-size: 1.6667rem;
+	line-height: normal;
+	letter-spacing: 0.05em;
+	color: #6F6F6F;
+}
+
+/*-------------------------product-open--------------------------*/
+
+.product-open{
+	justify-content: flex-start;
+}
+.description{
+	padding-top: 55px;
+}
+.description .name-prod{
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.descr{
+	margin-bottom: 25px;
+	font-size: 1.2222rem;
+}
+.description p:last-child{
+	line-height: 24px;
+	
+}
+.product-open .open-container .row{
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.title-char{
+	font-size: 26px;
+	line-height: 34px;
+	color: #499A89;
+	margin-top: 30px;
+}
+
+.cl{
+	flex-direction: column;
+	padding-left: 15px;
+
+}
+.cl>div>div{
+	vertical-align: top;
+	display: inline-block;
+	width: 125px;
+}
+.cl>div>ul{
+	display: inline-block;
+}
+
+.cl>div{
+	margin-top: 25px;
+	font-size: 1.1111rem;
+	line-height: 26px;
+	color: #6F6F6F;
+}
+.cl>div>ul>li{
+	margin-bottom: 15px;
+	font-weight: bold;
+}
+.second-list>div{
+	font-size: 1.1111rem;
+	margin-right: 21px;
+}
+.second-list li{
+	margin-bottom: 25px;
+}
+.second-list>div:last-child{
+	font-weight: bold;
+	color: #6F6F6F;
+	margin-left: 60px;
+	margin-right: 0;
+}
+
+.open-container>.row:last-child{
+	border-bottom: 5px solid #E5E5E5;
+	padding-bottom: 110px;
+	padding-top: 20px;
+}
+.open-container>.row:last-child>div{
+	margin-top: 20px;
+}
+.second-list{
+	padding-left: 15px;
+}
+
+
+@media only screen and (max-width: 520px) {
+
+.second-list>div:last-child{
+	margin-left: 10px;
+}
+.second-list{
+	padding-left: 7px;
+}
+.second-list>div{
+	margin-right: 9px;
+	font-size: 0.7222rem;
+}
+.cl>div{
+	font-size: 0.8333rem;
+}
+.cl{
+	padding-left: 7px;
+}
+
+}
+.container h2>img{
+	margin-left: 20px;
+	margin-top: -7px;
+}
+.container h2>img,.container h2 {
+	display: inline-block;
+}
+.prod-h2{
+	margin-top: 40px;
+	font-weight: normal;
+}
+
+
+@media only screen and (max-width: 1800px) {
+.contact:first-child{
+	padding: 0 10px;
+	padding-top: 35px;
+
+}
+
+}
+
+@media only screen and (max-width: 767px) {
+.menu li a{
+	color: #fff;
+}
+
+.container h2>img {
+	width: 30px;
+	height: 20px;
+	margin-left: 10px; 
+}
+
+}
+
+
+
+
